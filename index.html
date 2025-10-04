@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Physiqo — Lose Fat, Build Muscle, Get Fit</title>
+  <meta name="description" content="Lose weight, get in shape, and build muscle while losing fat with Physiqo coaching. Free 10-day consultation for new clients.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#0f9d58;--dark:#0b1220;--muted:#6b7280}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Arial,sans-serif;color:var(--dark);background:#f7f8fb}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#2bb4d8);display:flex;align-items:center;justify-content:center;color:white;font-weight:800}
+    nav a{margin-left:18px;color:var(--dark);text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:18px}
+    .hero h1{font-size:34px;margin:0 0 12px}
+    .lead{color:var(--muted);margin-bottom:18px}
+    .cta{display:flex;gap:12px}
+    .btn{background:var(--accent);color:white;padding:12px 16px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .btn.alt{background:transparent;color:var(--dark);border:1px solid #e6e9ef}
+    .card{background:white;border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(12,15,22,0.06)}
+    .small{font-size:14px;color:var(--muted)}
+    .programs{margin-top:28px}
+    .program{display:flex;gap:14px;align-items:center;padding:12px 0;border-bottom:1px dashed #eef2f7}
+    footer{margin-top:48px;padding:28px 0;border-top:1px solid #eef2f7;color:var(--muted)}
+    form input{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ef}
+    @media(max-width:920px){.hero{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">PQ</div>
+        <div>
+          <div style="font-weight:800">Physiqo</div>
+          <div class="small">Lose fat • Build muscle • Feel great</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#programs">Programs</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Lose fat, build muscle, and get in the best shape of your life — sustainably.</h1>
+        <p class="lead">Personalized coaching that blends effective strength training, calorie-smart nutrition, and accountability so you lose fat and gain muscle without extreme diets or shortcuts.</p>
+
+        <div class="cta">
+          <button class="btn" id="bookBtn">Book your FREE 10-day consultation</button>
+          <a class="btn alt" href="#programs">See Programs</a>
+        </div>
+
+        <div style="margin-top:18px" class="small">Contact: <a href="tel:+13374008558">(337) 400-8558</a> • <a href="mailto:camscott0419@gmail.com">camscott0419@gmail.com</a></div>
+
+        <div style="margin-top:24px" class="card">
+          <strong>What I do for you</strong>
+          <ul style="margin:10px 0 0 18px;line-height:1.6">
+            <li>Personalized workout plans focused on strength and fat loss.</li>
+            <li>Simple, flexible nutrition guidance that fits your lifestyle.</li>
+            <li>Weekly progress checks and adjustments.</li>
+            <li>Form coaching, mobility work, and recovery strategies.</li>
+            <li>Accountability via messages and scheduled check-ins.</li>
+          </ul>
+          <div class="small" style="margin-top:12px">Free 10-day trial: new clients receive a no-cost consultation & plan starter pack.</div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin-top:0">Quick Start</h3>
+          <form id="leadForm">
+            <label class="small">Full name</label>
+            <input type="text" id="name" placeholder="Your name" required>
+            <label class="small" style="margin-top:8px">Phone</label>
+            <input type="tel" id="phone" placeholder="(###) ###-####" required>
+            <label class="small" style="margin-top:8px">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" required>
+            <button class="btn" style="margin-top:12px" type="submit">Claim Free Consultation</button>
+          </form>
+        </div>
+      </aside>
+    </section>
+
+    <section id="programs" class="programs">
+      <h2>Programs & Pricing</h2>
+      <div class="card" style="margin-top:12px">
+        <div class="program">
+          <div style="flex:1">
+            <h3>12-week Fat Loss & Strength</h3>
+            <p class="small">A balanced plan to lose fat and gain strength. Includes meal framework and weekly check-ins.</p>
+          </div>
+          <div style="width:140px;text-align:right">
+            <div style="font-weight:800">$299</div>
+            <div class="small">one-time</div>
+          </div>
+        </div>
+
+        <div class="program">
+          <div style="flex:1">
+            <h3>8-week Muscle Build</h3>
+            <p class="small">Focused hypertrophy training and smart nutrition to maximize muscle growth.</p>
+          </div>
+          <div style="width:140px;text-align:right">
+            <div style="font-weight:800">$249</div>
+            <div class="small">one-time</div>
+          </div>
+        </div>
+
+        <div class="program">
+          <div style="flex:1">
+            <h3>1-on-1 Coaching</h3>
+            <p class="small">Weekly programming, form reviews, and accountability for long-term results.</p>
+          </div>
+          <div style="width:140px;text-align:right">
+            <div style="font-weight:800">$79</div>
+            <div class="small">/ week</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:28px">
+      <h2>About Physiqo</h2>
+      <div class="card" style="margin-top:12px">
+        <p>At Physiqo, I combine experience and science-backed methods to help you build sustainable fitness habits. My approach emphasizes strength, nutrition you can actually follow, and accountability to keep you on track.</p>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:28px">
+      <h2>Contact</h2>
+      <div class="card" style="margin-top:12px">
+        <p>Call or text: <strong>(337) 400-8558</strong><br>Email: <a href="mailto:camscott0419@gmail.com">camscott0419@gmail.com</a></p>
+        <p class="small">New clients: your first 10 days are free as a consultation period. Limited offer.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div>© Physiqo • Contact: (337) 400-8558 • camscott0419@gmail.com</div>
+    </footer>
+  </div>
+</body>
+</html>
